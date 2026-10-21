@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Datasets (large MRI neuroimaging scans)
+data/
+
+# Model checkpoints & saved weights
+models/*.h5
+models/*.keras
+models/checkpoints/
+
+# Logs and telemetry
+logs/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
